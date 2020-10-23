@@ -1,0 +1,39 @@
+#tile-view-mode {
+    background: lightgray;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+    overflow: scroll;
+}
+h1#tile-view-header {
+    margin-left: 2em;
+}
+.tile-bg {
+    float: left;
+    padding: 0.5em;
+    margin: 0em;
+    border-radius: 0px;
+    display: inline-table;
+}
+.tile-bg.displayed-tile {
+    background: rgb(200,200,200);
+}
+.tile {
+    position: relative;
+    padding: 1em;
+    margin: 0.5em;
+}
+.tile.current-tile {
+    background: rgb(0,0,255);
+}
+.tile:hover {
+    background: rgb(255,255,0);
+}
+.tile:active {
+    background: rgb(255,255,0);
+}
+/* tile container width, height is set using inline style in javascript */
+.tile-container {
+    position: relative;
+}

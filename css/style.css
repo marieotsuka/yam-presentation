@@ -1,0 +1,138 @@
+:root {
+  --blue: 0,0,255;
+  --default-font-size: 30px;
+}
+
+.remark-slides-area .remark-slide-content {
+  font-size: var(--default-font-size);
+}
+
+.remark-slide-number {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(var(--blue));
+}
+
+.comic-sans {
+  font-family: "Comic Sans MS", cursive;
+}
+
+.helvetica {
+  font-family: "Helvetica", sans-serif;
+}
+
+.times {
+  font-family: "Times New Roman", serif;
+}
+
+.remark-slide-content {
+  padding: 0;
+}
+.remark-slide-content h1, .remark-slide-content h2, .remark-slide-content h3 {
+  margin: 0 auto;
+}
+.remark-slide-content h1 a, .remark-slide-content h2 a, .remark-slide-content h3 a {
+  border-bottom-width: 4px;
+}
+.remark-slide-content h1, .remark-slide-content h2, .remark-slide-content h3, .remark-slide-content p {
+  text-align: center;
+}
+.remark-slide-content h1 {
+  font-size: 4em;
+  line-height: 1;
+  margin-bottom: 2rem;
+  max-width: 80%;
+}
+.remark-slide-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+}
+.remark-slide-content h3 {
+  font-size: 1.5em;
+  max-width: 15em;
+}
+.remark-slide-content a {
+  color: rgb(var(--blue));
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid rgb(var(--blue));
+}
+
+.cols {
+  display: flex;
+  height: 100%;
+}
+.cols .col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 630px;
+}
+
+.appear {
+  position: absolute;
+}
+
+.pos1 {
+  top: 10vh;
+  left: 5vw;
+}
+
+.pos2 {
+  top: 20vh;
+  left: 35vw;
+}
+
+.pos3 {
+  top: 35vh;
+  left: 20vw;
+}
+
+.intersections {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45vh;
+  margin: auto;
+  margin-top: 8vh;
+}
+.intersections .circle {
+  border: 1px solid rgb(var(--blue));
+  height: 30vh;
+  width: 30vh;
+  margin: -5vh;
+  position: relative;
+  border-radius: 50%;
+  padding-top: 12vh;
+  text-align: center;
+}
+.intersections.inter .circle {
+  background: rgb(var(--blue), 0.2);
+}
+
+.label {
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.line {
+  height: 1rem;
+  border-bottom: 1px solid rgb(var(--blue));
+  width: 20vw;
+}
+
+.intersections + .label {
+  position: absolute;
+  top: 51.5%;
+  right: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

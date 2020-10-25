@@ -14,7 +14,7 @@
 	font-weight: 300;
 }
 .remark-slide-number{
-	// display: none;
+	display: none;
 }
 
 *{
@@ -141,6 +141,10 @@ body{
 img{
 	height: 400px;
 }
+.wide img{
+	height: auto;
+	max-width: 850px;
+}
 figure{
 	position: absolute;
 }
@@ -180,6 +184,9 @@ figure{
 	a{
 		border-bottom-width: 1px;
 	}
+}
+.caption p{
+	text-align: left;
 }
 
 
@@ -283,6 +290,28 @@ figure{
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
   }
+}
+
+.low-tech{
+	background-color:#162dab;
+	background-blend-mode: normal;
+	display: block;
+	img{
+		display: block;
+		mix-blend-mode: hard-light;
+	}
+}
+#obsolete-technology{
+	color:#006951
+}
+#high-tech-problems{
+	color:#d11305
+}
+.mix{
+	background-blend-mode: hard-light;
+	background-repeat: no-repeat;	
+	background-size: cover;
+	background-color: #162dab;
 }
 
 .intersections.work{

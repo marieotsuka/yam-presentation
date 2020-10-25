@@ -7,7 +7,7 @@ var searchoptions = {
   'What is a server?',
   'What is the cloud?',
   'HTML tutorial',
-  'Text Editor download',
+  'Text Editor',
   'lisa explains it all',
   'CSS Layouts',
   'Free hosting services',
